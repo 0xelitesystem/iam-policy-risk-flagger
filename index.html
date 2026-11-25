@@ -3,11 +3,11 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>IAM Policy Analyzer - browser-based AWS IAM policy analyzer</title>
+<title>IAM Policy Risk Flagger - browser-based AWS IAM policy analyzer</title>
 <meta name="description" content="Browser-based AWS IAM policy analyzer. Flags privilege-escalation paths, wildcards, missing conditions, and trust-policy issues.">
-<meta property="og:title" content="IAM Policy Analyzer">
+<meta property="og:title" content="IAM Policy Risk Flagger">
 <meta property="og:description" content="Browser-based AWS IAM policy analyzer. Flags privilege-escalation paths, wildcards, missing conditions, and trust-policy issues.">
-<meta property="og:url" content="https://0xelitesystem.github.io/iam-policy-analyzer/">
+<meta property="og:url" content="https://0xelitesystem.github.io/iam-policy-risk-flagger/">
 <meta property="og:type" content="website">
 <meta name="twitter:card" content="summary">
 <style>
@@ -147,8 +147,8 @@ code { font-family: var(--mono); background: var(--bg); padding: 1px 4px; border
 footer { max-width: 1200px; margin: 24px auto 0; text-align: center; font-size: 11px; color: var(--text-dim); }
 .error-box { background: rgba(255, 82, 82, 0.08); border: 1px solid var(--crit); color: var(--crit); padding: 10px 12px; border-radius: 4px; font-size: 12px; font-family: var(--mono); margin-bottom: 12px; }
 </style>
-<link rel="canonical" href="https://0xelitesystem.github.io/iam-policy-analyzer/">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"IAM Policy Analyzer","applicationCategory":"DeveloperApplication","operatingSystem":"Any (browser)","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"url":"https://0xelitesystem.github.io/iam-policy-analyzer/","author":{"@type":"Person","name":"0xelitesystem","url":"https://elitesystem.ai"}}</script>
+<link rel="canonical" href="https://0xelitesystem.github.io/iam-policy-risk-flagger/">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"IAM Policy Risk Flagger","applicationCategory":"DeveloperApplication","operatingSystem":"Any (browser)","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"url":"https://0xelitesystem.github.io/iam-policy-risk-flagger/","author":{"@type":"Person","name":"0xelitesystem","url":"https://elitesystem.ai"}}</script>
 <style>
 /* elitesystem brand tokens: chrome only, meaning preserved */
 :root, :root[data-theme="dark"] {
@@ -182,7 +182,7 @@ footer { max-width: 1200px; margin: 24px auto 0; text-align: center; font-size: 
 <body>
 <header>
   <div>
-    <h1>IAM Policy Analyzer</h1>
+    <h1>IAM Policy Risk Flagger</h1>
     <div class="subtitle">Static analysis of AWS IAM policy JSON. Browser-only.</div>
   </div>
   <button class="theme-btn" id="theme-btn">light</button>
@@ -206,7 +206,7 @@ footer { max-width: 1200px; margin: 24px auto 0; text-align: center; font-size: 
     </div>
   </section>
 </main>
-<footer>Static analysis. Pattern-based. Run on your own machine. No data leaves the browser. <br>An <a href="https://elitesystem.ai" target="_blank" rel="noopener">elitesystem.ai</a> tool. <a href="https://github.com/0xelitesystem/iam-policy-analyzer" target="_blank" rel="noopener">Source on GitHub</a>. <a href="https://0xelitesystem.github.io/" target="_blank" rel="noopener">More tools</a>. </footer>
+<footer>Static analysis. Pattern-based. Run on your own machine. No data leaves the browser. <br>An <a href="https://elitesystem.ai" target="_blank" rel="noopener">elitesystem.ai</a> tool. <a href="https://github.com/0xelitesystem/iam-policy-risk-flagger" target="_blank" rel="noopener">Source on GitHub</a>. <a href="https://0xelitesystem.github.io/" target="_blank" rel="noopener">More tools</a>. </footer>
 <script>
 (function() {
   const $ = id => document.getElementById(id);

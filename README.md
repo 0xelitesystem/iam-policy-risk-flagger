@@ -1,8 +1,8 @@
-# iam-policy-analyzer
+# iam-policy-risk-flagger
 
 Browser-based analyzer for AWS IAM policies. Paste a policy document, get back a list of findings: privilege escalation paths, overly broad grants, missing conditions, and trust policy issues.
 
-**Live demo:** https://0xelitesystem.github.io/iam-policy-analyzer/
+**Live demo:** https://0xelitesystem.github.io/iam-policy-risk-flagger/
 
 Single HTML file. No build step, no dependencies, no network calls. Open `index.html` or use the hosted version.
 
@@ -46,8 +46,8 @@ Everything runs in the browser. The policy you paste never leaves the page. No a
 ## Run locally
 
 ```bash
-git clone https://github.com/0xelitesystem/iam-policy-analyzer
-cd iam-policy-analyzer
+git clone https://github.com/0xelitesystem/iam-policy-risk-flagger
+cd iam-policy-risk-flagger
 ```
 
 Then open `index.html` in any modern browser. Or serve the folder with `python -m http.server 8000` and visit http://localhost:8000.
@@ -68,7 +68,7 @@ Browser-based audit tools:
 - [hcl-aws-misconfig-linter](https://github.com/0xelitesystem/hcl-aws-misconfig-linter)
 - [kubernetes-manifest-security-scanner](https://github.com/0xelitesystem/kubernetes-manifest-security-scanner)
 - [session-cookie-auditor](https://github.com/0xelitesystem/session-cookie-auditor)
-- [regex-redos-checker](https://github.com/0xelitesystem/regex-redos-checker)
+- [redos-evil-input-finder](https://github.com/0xelitesystem/redos-evil-input-finder)
 
 Reference collections:
 - [incident-response-runbooks](https://github.com/0xelitesystem/incident-response-runbooks)
